@@ -1,0 +1,6 @@
+with open("data.txt","r") as file:
+    print(file.readline().strip())
+    print(file.readline())
+
+with open("data.txt","r") as file:
+    print(file.readlines())
